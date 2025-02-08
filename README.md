@@ -1,5 +1,6 @@
 # ft_transcendence
 
+```mermaid
 classDiagram
     class AuthService {
         +login(credentials)
@@ -97,3 +98,4 @@ classDiagram
     SSRService --> UserService
     SSRService --> GameService
     MonitoringService --> SecurityService
+```
